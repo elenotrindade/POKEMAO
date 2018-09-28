@@ -29,6 +29,5 @@ public class Pokemonteste {
            pokemons.get(i).emitirSom();
            pokemons.get(i).ataqueAnuncio();
         }
-    }
-    
+    }   
 }

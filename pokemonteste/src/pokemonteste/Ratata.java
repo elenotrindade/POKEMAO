@@ -10,7 +10,7 @@ import java.util.*;
  *
  * @author eleno
  */
-public class Ratata extends Pokemon {
+public class Ratata extends Pokemon implements Normal {
 
     @Override
     public void emitirSom() {

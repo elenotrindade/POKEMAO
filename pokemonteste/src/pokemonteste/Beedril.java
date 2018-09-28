@@ -9,7 +9,7 @@ package pokemonteste;
  *
  * @author eleno
  */
-public class Beedril extends Pokemon {
+public class Beedril extends Pokemon implements Normal{
 
     @Override
     public void emitirSom() {

@@ -9,7 +9,7 @@ package pokemonteste;
  *
  * @author eleno
  */
-public class Growlithe extends Pokemon{
+public class Growlithe extends Pokemon implements Normal{
 
     @Override
     public void emitirSom() {

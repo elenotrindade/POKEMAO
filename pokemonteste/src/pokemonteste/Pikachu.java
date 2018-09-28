@@ -8,7 +8,7 @@ package pokemonteste;
  *
  * @author eleno
  */
-public class Pikachu extends Pokemon {
+public class Pikachu extends Pokemon implements Normal {
     
     @Override
     public void emitirSom() {
@@ -20,6 +20,6 @@ public class Pikachu extends Pokemon {
 
     @Override
     public void ataqueAnuncio() {
-        System.out.println(this.nome + " usa choque do trovão");
+        System.out.println(this.nome + "usa choque do trovão");
     }
 }

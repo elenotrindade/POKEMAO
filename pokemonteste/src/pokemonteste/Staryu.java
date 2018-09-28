@@ -9,7 +9,7 @@ package pokemonteste;
  *
  * @author eleno
  */
-public class Staryu extends Pokemon{
+public class Staryu extends Pokemon implements Normal{
 
     @Override
     public void emitirSom() {

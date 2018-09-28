@@ -9,7 +9,7 @@ package pokemonteste;
  *
  * @author eleno
  */
-public class Pigeot extends Pokemon{
+public class Pigeot extends Pokemon implements Normal{
 
     @Override
     public void emitirSom() {
