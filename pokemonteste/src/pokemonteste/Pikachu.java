@@ -14,5 +14,12 @@ public class Pikachu extends Pokemon {
     public void emitirSom() {
         System.out.println("Pika,Pika!");
     }
-    
+        public void setNome() {
+        this.nome="Pikachu";
+    }
+
+    @Override
+    public void ataqueAnuncio() {
+        System.out.println(this.nome + " usa choque do trovão");
+    }
 }

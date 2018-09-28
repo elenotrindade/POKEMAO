@@ -15,5 +15,14 @@ public class Beedril extends Pokemon {
     public void emitirSom() {
         System.out.println("Beedril!!");
     }
-    
+
+    @Override
+    public void setNome() {
+        this.nome="Beedril";
+    }
+
+    @Override
+    public void ataqueAnuncio() {
+        System.out.println(this.nome + " usa malemolencia");
+    }
 }

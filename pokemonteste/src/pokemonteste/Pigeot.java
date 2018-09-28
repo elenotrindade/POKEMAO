@@ -15,5 +15,10 @@ public class Pigeot extends Pokemon{
     public void emitirSom() {
         System.out.println("Pigeot!");
     }
-    
+        public void setNome() {
+        this.nome="Pigeot";
+    }
+        public void ataqueAnuncio() {
+        System.out.println(this.nome + " usa bicada bolada");
+    }
 }

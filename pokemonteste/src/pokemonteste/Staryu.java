@@ -15,5 +15,10 @@ public class Staryu extends Pokemon{
     public void emitirSom() {
         System.out.println("Staryu!");
     }
-    
+        public void setNome() {
+        this.nome="Staryu";
+    }
+        public void ataqueAnuncio() {
+        System.out.println(this.nome + " usa rodadinha");
+    }
 }

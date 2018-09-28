@@ -16,5 +16,10 @@ public class Ratata extends Pokemon {
     public void emitirSom() {
         System.out.println("Ratata!");
     }
-    
+        public void setNome() {
+        this.nome="Ratata";
+    }
+        public void ataqueAnuncio() {
+        System.out.println(this.nome + " usa choque do trovão");
+    }
 }

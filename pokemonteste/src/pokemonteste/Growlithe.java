@@ -14,5 +14,13 @@ public class Growlithe extends Pokemon{
     @Override
     public void emitirSom() {
         System.out.println("Grow!Grow!");
+    }
+    public void setNome() {
+        this.nome="Growlithe";
     }    
+
+    @Override
+    public void ataqueAnuncio() {
+        System.out.println(this.nome + " usa mordidão do nelsão");
+    }
 }

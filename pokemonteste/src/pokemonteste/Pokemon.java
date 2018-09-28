@@ -19,7 +19,9 @@ public abstract class Pokemon {
         nome = name;
     };
     public abstract void emitirSom();  
-    
+    public abstract void setNome();
+    public abstract void ataqueAnuncio();
+    @Override
     public String toString(){
         return this.nome;
     }
