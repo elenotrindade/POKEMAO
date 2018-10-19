@@ -22,4 +22,9 @@ public class Pikachu extends Pokemon implements Normal {
     public void ataqueAnuncio() {
         System.out.println(this.nome + "usa choque do trovão");
     }
+
+    @Override
+    public float investida() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
 }

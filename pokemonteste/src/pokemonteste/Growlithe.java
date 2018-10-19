@@ -23,4 +23,9 @@ public class Growlithe extends Pokemon implements Normal{
     public void ataqueAnuncio() {
         System.out.println(this.nome + " usa mordidão do nelsão");
     }
+
+    @Override
+    public float investida() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
 }
