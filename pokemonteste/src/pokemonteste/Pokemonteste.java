@@ -23,11 +23,5 @@ public class Pokemonteste {
         pokemons.add (new Ratata());
         pokemons.add (new Beedril());
         pokemons.add (new Staryu());
-        for (int i=0; i<pokemons.size();i++)
-        {   
-           pokemons.get(i).setNome();
-           pokemons.get(i).emitirSom();
-           pokemons.get(i).ataqueAnuncio();
-        }
     }   
 }

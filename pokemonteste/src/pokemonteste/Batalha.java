@@ -10,13 +10,15 @@ package pokemonteste;
  */
 public class Batalha {
     int turno = -1;
-    //@return retorna se está em batalha ou não;
+    /*@return retorna se está em batalha ou não;
+    */
     public boolean estaEmBatalha(){
         boolean bool = true;
         return bool;
     }
-    //@param os dois pokemons que estão no campo de batalha
-    //@return retorna de qual pokemon é o turno
+    /*@param os dois pokemons que estão no campo de batalha
+    *@return retorna de qual pokemon é o turno
+    */
     public Pokemon turno (Pokemon x, Pokemon y)
     {
         if (x.turno == -1 && y.turno == -1)
@@ -36,8 +38,9 @@ public class Batalha {
             return turno (x,y);
         }
     }
-    //@param os dois pokemons que estão batalhando no momento e tudo que vai envolver a batalha
-    //@return retorna qual foi o pokemon vitorioso
+    /*@param os dois pokemons que estão batalhando no momento e tudo que vai envolver a batalha
+    *@return retorna qual foi o pokemon vitorioso
+    */
     public void batalhando (Pokemon x, Pokemon y)
     {
         while (x.hp !=0 || y.hp !=0 )
@@ -45,7 +48,8 @@ public class Batalha {
             
         }
     }
-    //@param o pokemon que ta atacando e o que está recebendo o ataque *ainda não sabemos como definir como seria a seleção de cada ataque*
+    /*@param o pokemon que ta atacando e o que está recebendo o ataque *ainda não sabemos como definir como seria a seleção de cada ataque*
+    */
     private void ataque (Pokemon x, Pokemon y)
     {
         int dano = x.ataque();

@@ -29,9 +29,4 @@ public abstract class Pokemon {
     public String toString(){
         return this.nome;
     }
-    /* float ataque (int atk, int hpInimigo) {
-        float dano;
-        dano = hpInimigo - ((float) (atk * multiplicador de dano);
-        return dano;   
-    }*/
 }
