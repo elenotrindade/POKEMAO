@@ -15,9 +15,13 @@ public abstract class Pokemon {
     int hp;
     int atk;
     int def;
-    public void setNome (String name){
+    int turno = -1;
+    protected void setNome (String name){
         nome = name;
     };
+    public String getNome(){
+        return nome;
+    }
     public abstract void emitirSom();  
     public abstract void setNome();
     public abstract void ataqueAnuncio();
