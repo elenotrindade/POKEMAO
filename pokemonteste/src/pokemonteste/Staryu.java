@@ -11,14 +11,15 @@ package pokemonteste;
  */
 public class Staryu extends Pokemon implements Normal{
 
+    public Staryu(String nome) {
+        this.nome = nome;
+    }
+    //@return Retorna o nome
+    public String getNome() {
+        return nome;
+    }
     @Override
-    public void emitirSom() {
-        System.out.println("Staryu!");
-    }
-        public void setNome() {
-        this.nome="Staryu";
-    }
-        public void ataqueAnuncio() {
+    public void ataqueAnuncio() {
         System.out.println(this.nome + " usa rodadinha");
     }
 

@@ -12,14 +12,15 @@ import java.util.*;
  */
 public class Ratata extends Pokemon implements Normal {
 
+    public Ratata(String nome) {
+        this.nome = nome;
+    }
+    //@return Retorna o nome
+    public String getNome() {
+        return nome;
+    }
     @Override
-    public void emitirSom() {
-        System.out.println("Ratata!");
-    }
-        public void setNome() {
-        this.nome="Ratata";
-    }
-        public void ataqueAnuncio() {
+    public void ataqueAnuncio() {
         System.out.println(this.nome + " usa choque do trovão");
     }
 

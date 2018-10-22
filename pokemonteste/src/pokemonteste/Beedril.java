@@ -11,14 +11,12 @@ package pokemonteste;
  */
 public class Beedril extends Pokemon implements Normal{
 
-    @Override
-    public void emitirSom() {
-        System.out.println("Beedril!!");
+    public Beedril(String nome) {
+        this.nome = nome;
     }
-
-    @Override
-    public void setNome() {
-        this.nome="Beedril";
+    //@return Retorna o nome
+    public String getNome() {
+        return nome;
     }
 
     @Override

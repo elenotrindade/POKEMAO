@@ -11,13 +11,14 @@ package pokemonteste;
  */
 public class Growlithe extends Pokemon implements Normal{
 
-    @Override
-    public void emitirSom() {
-        System.out.println("Grow!Grow!");
+    public Growlithe(String nome) {
+        this.nome = nome;
     }
-    public void setNome() {
-        this.nome="Growlithe";
-    }    
+    //@return Retorna o nome
+    public String getNome()
+    {
+        return nome;
+    }
 
     @Override
     public void ataqueAnuncio() {

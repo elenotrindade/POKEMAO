@@ -10,12 +10,12 @@ package pokemonteste;
  */
 public class Pikachu extends Pokemon implements Normal {
     
-    @Override
-    public void emitirSom() {
-        System.out.println("Pika,Pika!");
+    public Pikachu(String nome) {
+        this.nome = nome;
     }
-        public void setNome() {
-        this.nome="Pikachu";
+    //@return Retorna o nome
+    public String getNome() {
+        return nome;
     }
 
     @Override
