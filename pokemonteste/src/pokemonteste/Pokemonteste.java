@@ -17,11 +17,6 @@ public class Pokemonteste {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        ArrayList<Pokemon> pokemons = new ArrayList();
-        pokemons.add (new Pikachu());
-        pokemons.add (new Pigeot());
-        pokemons.add (new Ratata());
-        pokemons.add (new Beedril());
-        pokemons.add (new Staryu());
+
     }   
 }

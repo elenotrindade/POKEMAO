@@ -3,9 +3,28 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="1"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
+<<<<<<< HEAD
             <file>file:/C:/Users/eleno/Desktop/2018.2/Pokemon/POKEMAO/pokemonteste/src/pokemonteste/Pokemon.java</file>
             <file>file:/C:/Users/eleno/Desktop/2018.2/Pokemon/POKEMAO/pokemonteste/src/pokemonteste/Beedril.java</file>
             <file>file:/C:/Users/eleno/Desktop/2018.2/Pokemon/POKEMAO/pokemonteste/src/pokemonteste/Batalha.java</file>
+=======
+            <file>file:/D:/NetbeansProjects/POKEMAO/pokemonteste/src/pokemonteste/Pigeot.java</file>
+            <file>file:/D:/NetbeansProjects/POKEMAO/pokemonteste/src/pokemonteste/Pokemon.java</file>
+            <file>file:/D:/NetbeansProjects/POKEMAO/pokemonteste/src/pokemonteste/Terra.java</file>
+            <file>file:/D:/NetbeansProjects/POKEMAO/pokemonteste/src/pokemonteste/Ar.java</file>
+            <file>file:/D:/NetbeansProjects/POKEMAO/pokemonteste/src/pokemonteste/Beedril.java</file>
+            <file>file:/D:/NetbeansProjects/POKEMAO/pokemonteste/src/pokemonteste/Ratata.java</file>
+            <file>file:/D:/NetbeansProjects/POKEMAO/pokemonteste/src/pokemonteste/Normal.java</file>
+            <file>file:/D:/NetbeansProjects/POKEMAO/pokemonteste/src/pokemonteste/Pokemonteste.java</file>
+            <file>file:/D:/NetbeansProjects/POKEMAO/pokemonteste/src/pokemonteste/Growlithe.java</file>
+            <file>file:/D:/NetbeansProjects/POKEMAO/pokemonteste/src/pokemonteste/Agua.java</file>
+            <file>file:/D:/NetbeansProjects/POKEMAO/pokemonteste/src/pokemonteste/Pikachu.java</file>
+            <file>file:/D:/NetbeansProjects/POKEMAO/pokemonteste/src/pokemonteste/Eletrico.java</file>
+            <file>file:/D:/NetbeansProjects/POKEMAO/pokemonteste/src/pokemonteste/Grama.java</file>
+            <file>file:/D:/NetbeansProjects/POKEMAO/pokemonteste/src/pokemonteste/Planta.java</file>
+            <file>file:/D:/NetbeansProjects/POKEMAO/pokemonteste/src/pokemonteste/Fogo.java</file>
+            <file>file:/D:/NetbeansProjects/POKEMAO/pokemonteste/src/pokemonteste/Staryu.java</file>
+>>>>>>> b3c357e1af42c895ce923f03e5a52e2d15bb8a6d
         </group>
     </open-files>
 </project-private>

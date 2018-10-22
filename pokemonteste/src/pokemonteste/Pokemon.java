@@ -11,6 +11,12 @@ package pokemonteste;
  */
 public abstract class Pokemon {
     String nome;
+<<<<<<< HEAD
+    protected int nvl, hp, atk, def, turno = -1;
+    public void setNome (String name){
+        nome = name;
+    };
+=======
     int nvl;
     int hp;
     int atk;
@@ -24,6 +30,7 @@ public abstract class Pokemon {
     }
     public abstract void emitirSom();  
     public abstract void setNome();
+>>>>>>> e1c556dfa7a317f61809afc147412ac692b86d63
     public abstract void ataqueAnuncio();
     @Override
     public String toString(){
