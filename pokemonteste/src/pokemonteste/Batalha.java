@@ -38,19 +38,25 @@ public class Batalha {
             return turno (x,y);
         }
     }
-    /*@param os dois pokemons que estão batalhando no momento e tudo que vai envolver a batalha
-    *@return retorna qual foi o pokemon vitorioso
+    /**
+     * Luta dos pokemons 
+    * @param x primeiro pokemon
+    * @param y segundo pokemon
+    * @return retorna qual foi o pokemon vitorioso
     */
-    public void batalhando (Pokemon x, Pokemon y)
+    
+   
+    public Pokemon batalhar (Pokemon x, Pokemon y)
     {
         while (x.hp !=0 || y.hp !=0 )
         {
             
         }
+        return x;
     }
     /*@param o pokemon que ta atacando e o que está recebendo o ataque *ainda não sabemos como definir como seria a seleção de cada ataque*
     */
-    private void ataque (Pokemon x, Pokemon y)
+    private void atacar (Pokemon x, Pokemon y)
     {
         int dano = x.ataque();
         dano = dano - y.def;

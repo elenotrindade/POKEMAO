@@ -10,30 +10,18 @@ package pokemonteste;
  * @author eleno
  */
 public abstract class Pokemon {
-    String nome;
-<<<<<<< HEAD
+    protected String nome;
+
     protected int nvl, hp, atk, def, turno = -1;
-    public void setNome (String name){
-        nome = name;
-    };
-=======
-    int nvl;
-    int hp;
-    int atk;
-    int def;
-    int turno = -1;
-    protected void setNome (String name){
-        nome = name;
-    };
-    public String getNome(){
-        return nome;
-    }
-    public abstract void emitirSom();  
-    public abstract void setNome();
->>>>>>> e1c556dfa7a317f61809afc147412ac692b86d63
+
     public abstract void ataqueAnuncio();
     @Override
     public String toString(){
         return this.nome;
+    }
+
+    int ataque() {
+        //chama o time e retorna o dano do ataque
+        return 1;
     }
 }

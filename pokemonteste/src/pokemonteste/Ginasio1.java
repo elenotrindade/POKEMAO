@@ -5,6 +5,9 @@
  */
 package pokemonteste;
 
+import Pokemons.Pidgeot;
+import Pokemons.Fearow;
+
 /**
  *
  * @author crist

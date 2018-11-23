@@ -5,6 +5,10 @@
  */
 package pokemonteste;
 
+import Pokemons.Tangela;
+import Pokemons.Vileplume;
+import Pokemons.Victreebel;
+
 /**
  *
  * @author crist

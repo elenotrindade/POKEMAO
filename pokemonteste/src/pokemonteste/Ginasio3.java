@@ -5,6 +5,11 @@
  */
 package pokemonteste;
 
+import Pokemons.Magmar;
+import Pokemons.Rapidash;
+import Pokemons.Arcanine;
+import Pokemons.Ninetales;
+
 /**
  *
  * @author crist
