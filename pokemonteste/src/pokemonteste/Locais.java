@@ -18,18 +18,16 @@ import java.util.*;
     String Tipo;
     int    ExperienciaPadrao;// atributo pra calcular experiencia obtida por pokemons selvagens da area de farm
     Batalha batalha; 
-    void rodalocal(Treinador x)
-
-    {
-
-    }
+    public Locais(){};
     public void Farm1 (Treinador x) {
         Nome = "Floresta";
         ExperienciaPadrao = 50;
         ArrayList<Pokemon> pokemonsarea = new ArrayList();
         Pokemon pidgeot = new Pidgeot("Pidgeot");
         pokemonsarea.add(pidgeot);
-        batalha.pokemonvspokemon(x, pidgeot);
+        AreaFarm area = new AreaFarm();
+        area.preencheLista(pokemonsarea);
+        area.rodalocal(x);
     }
     public void Farm2 (Treinador x) {
         Nome = "Lago";
@@ -71,9 +69,9 @@ import java.util.*;
         Pokemon Growlithe = new Growlithe("Growlithe");
         batalha.treinadorvstreinador(x, (LiderdeGinasio) y);
     }
-
+}
         /* aqui será instanciado todos os locais, como os ginásios e os lugares secundário para farmar xp
         * atributos basicos: nome, pokemons e está atrelado a batalha, pois aqui ocorrerá as batalhas
         * os ginasios tem insignias para facilitar o controle de quando o jogo é completo
         */
-    }
+

@@ -44,9 +44,11 @@ public class Menu {
         System.out.println("O que queres fazer?");
         int escolha = teclado.nextInt();
          switch (escolha){
-             case 1: Locais.Ginasio1(coach);
+             case 1: Locais a = new Locais();
+             a.Ginasio1(coach);
              break;
-             case 2: Locais.Farm1(coach);
+             case 2: Locais b = new Locais();
+             b.Farm1(coach);
              break; 
             default: System.out.println("Escolha Inválida!");
          }
@@ -56,10 +58,12 @@ public class Menu {
             int escolha = teclado.nextInt();
             Scanner scan = new Scanner(System.in);
              switch (escolha){
-                 case 1: Locais.Ginasio2(coach);
-                 break;
-                 case 2: Locais.Farm2(coach);
-                 break;
+                case 1: Locais a = new Locais();
+                a.Ginasio2(coach);
+                break;
+                case 2: Locais b = new Locais();
+                b.Farm2(coach);
+                break; 
                  default: System.out.println("Escolha Inválida!");
              }
             }while(coach.getNumeroInsignias() == 1);
@@ -70,10 +74,12 @@ public class Menu {
         int escolha = teclado.nextInt();
         Scanner scan = new Scanner(System.in);
          switch (escolha){
-             case 1: Locais.Ginasio3(coach);
-             break;
-             case 2: Locais.Farm3(coach);
-             break;
+                case 1: Locais a = new Locais();
+                a.Ginasio3(coach);
+                break;
+                case 2: Locais b = new Locais();
+                b.Farm3(coach);
+                break; 
              default: System.out.println("Escolha Inválida!");
          }
         }while(coach.getNumeroInsignias() == 2);

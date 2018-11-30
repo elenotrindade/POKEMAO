@@ -17,8 +17,10 @@ public class AreaFarm extends Locais{
     
                     ArrayList<Pokemon> pokemonsarea = new ArrayList();
                     boolean derrotado = false;
-                    
-                    @Override
+                    public AreaFarm(){};
+                    void preencheLista(ArrayList<Pokemon> pokemons){
+                        pokemonsarea = pokemons;
+                    }
                     void rodalocal (Treinador x)
                     {
                         
@@ -43,6 +45,7 @@ public class AreaFarm extends Locais{
                             {
                                 derrotado = true;
                                 System.out.println("Voce foi derrotado!");
+                                System.runFinalization();
                             }
                         }
                         if(pokemonsarea.isEmpty())
