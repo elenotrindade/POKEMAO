@@ -11,7 +11,7 @@ import pokemonteste.*;
  *
  * @author crist
  */
-public class Fearow extends Pokemon implements Ar, Normal{
+public class Fearow extends Pokemon implements Ar {
 
     public Fearow(String nome) {
         this.nome = nome;
@@ -26,7 +26,27 @@ public class Fearow extends Pokemon implements Ar, Normal{
     }
 
     @Override
-    public float investida() {
+    public void chamaAtaque(int i) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public int hurricane() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public int wingAttack() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public int airSlash() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public int fly() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
     

@@ -11,7 +11,7 @@ import pokemonteste.*;
  *
  * @author crist
  */
-public class Pidgeot extends Pokemon implements Ar, Normal {
+public class Pidgeot extends Pokemon implements Ar{
 
     public Pidgeot(String nome) {
         this.nome = nome;
@@ -24,9 +24,29 @@ public class Pidgeot extends Pokemon implements Ar, Normal {
     public void ataqueAnuncio() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
+    
+    @Override
+    public int chamaAtaque(int i) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
 
     @Override
-    public float investida() {
+    public int hurricane() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public int wingAttack() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public int airSlash() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public int fly() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
     

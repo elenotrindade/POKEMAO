@@ -11,7 +11,7 @@ import pokemonteste.*;
  *
  * @author crist
  */
-public class Magmar extends Pokemon implements Fogo, Normal{
+public class Magmar extends Pokemon implements Fogo {
     public Magmar(String nome) {
         this.nome = nome;
     }
@@ -26,7 +26,27 @@ public class Magmar extends Pokemon implements Fogo, Normal{
     }
 
     @Override
-    public float investida() {
+    public int chamaAtaque(int i) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public int flameThrower() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public int inferno() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public int fireBlast() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public int flameBurst() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 }

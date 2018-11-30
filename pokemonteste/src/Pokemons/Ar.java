@@ -11,7 +11,7 @@ package Pokemons;
  */
 interface Ar {
     
-    void chamaAtaque();
+    int chamaAtaque(int i);
     
     int hurricane();
     int wingAttack();

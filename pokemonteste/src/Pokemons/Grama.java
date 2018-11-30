@@ -11,4 +11,10 @@ package Pokemons;
  */
 interface Grama {
     
+    int chamaAtaque(int i);
+    //Solar beam mais forte, vineWhip mais fraco, razorLeaf e depois powerWhip
+    int vineWhip();
+    int solarBeam();
+    int razorLeaf();
+    int powerWhip();
 }

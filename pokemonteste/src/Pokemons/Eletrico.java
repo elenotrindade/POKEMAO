@@ -11,4 +11,10 @@ package Pokemons;
  */
 interface Eletrico {
     
+    int chamaAtaque(int i);
+    
+    int thunderShock();
+    int voltTackle();
+    int thunderFang();
+    int shockWave();
 }

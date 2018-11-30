@@ -7,14 +7,8 @@ package Pokemons;
 
 /**
  *
- * @author eleno
+ * @author crist
  */
-interface Normal{
+public class Normal {
     
-    void chamaAtaque(int i);
-    
-    int investida();
-    int quickAttack();
-    int tackle();
-    int bite();
 }

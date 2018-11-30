@@ -11,7 +11,7 @@ import pokemonteste.*;
  *
  * @author crist
  */
-public class Arcanine extends Pokemon implements Normal, Fogo{
+public class Arcanine extends Pokemon implements Fogo{
     public Arcanine(String nome) {
         this.nome = nome;
     }
@@ -24,9 +24,31 @@ public class Arcanine extends Pokemon implements Normal, Fogo{
     public void ataqueAnuncio() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
+    
+    @Override
+    public int chamaAtaque(int i) {
+        if (i == 1){
+            return 0;
+        }
+    }
 
     @Override
-    public float investida() {
+    public int flameThrower() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public int inferno() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public int fireBlast() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public int flameBurst() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 }

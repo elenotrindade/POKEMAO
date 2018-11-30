@@ -11,4 +11,10 @@ package Pokemons;
  */
 interface Terra {
     
+    int chamaAtaque(int i);
+    
+    int earthQuake();
+    int fissure();
+    int earthPower();
+    int mudShot();
 }
