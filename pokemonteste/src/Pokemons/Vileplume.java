@@ -28,26 +28,46 @@ public class Vileplume extends Pokemon implements Grama{
 
     @Override
     public int chamaAtaque(int i) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        if (i == 1){
+            return vineWhip();
+        }
+        else if(i == 2){
+            return solarBeam();
+        }
+        else if(i == 3){
+            return razorLeaf();
+        }
+        else if(i == 4){
+            return powerWhip();
+        }
+        return 0;
     }
 
     @Override
     public int vineWhip() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        System.out.println("Vine Whip!");
+        super.decreaseEnergy(25);
+        return 25;
     }
 
     @Override
     public int solarBeam() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        System.out.println("Solar Beam!");
+        super.decreaseEnergy(40);
+        return 40;
     }
 
     @Override
     public int razorLeaf() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        System.out.println("Razor Leaf!");
+        super.decreaseEnergy(20);
+        return 30;
     }
 
     @Override
     public int powerWhip() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        System.out.println("Power Whip!");
+        super.decreaseEnergy(10);
+        return 20;
     }
 }
