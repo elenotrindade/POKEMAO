@@ -5,10 +5,13 @@
  */
 package pokemonteste;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author 1513 X-MXTI
  */
-public class Ginasio {
-    
+public class Ginasio extends Locais {
+            
+                    ArrayList<Treinador> treinadores = new ArrayList();
 }
