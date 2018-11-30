@@ -11,7 +11,7 @@ import pokemonteste.*;
  *
  * @author crist
  */
-public class Tangela extends Pokemon implements Normal, Grama{
+public class Tangela extends Pokemon implements Grama{
     public Tangela(String nome) {
         this.nome = nome;
     }
@@ -26,27 +26,7 @@ public class Tangela extends Pokemon implements Normal, Grama{
     }
 
     @Override
-    public int investida() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-
-    @Override
-    public void chamaAtaque(int i) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-
-    @Override
-    public int quickAttack() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-
-    @Override
-    public int tackle() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-
-    @Override
-    public int bite() {
+    public int chamaAtaque(int i) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 

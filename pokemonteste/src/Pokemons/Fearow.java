@@ -26,7 +26,7 @@ public class Fearow extends Pokemon implements Ar {
     }
 
     @Override
-    public void chamaAtaque(int i) {
+    public int chamaAtaque(int i) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 

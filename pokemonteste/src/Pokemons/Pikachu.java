@@ -11,7 +11,7 @@ import pokemonteste.*;
  *
  * @author eleno
  */
-public class Pikachu extends Pokemon implements Normal {
+public class Pikachu extends Pokemon implements Eletrico {
     
     public Pikachu(String nome) {
         this.nome = nome;
@@ -27,27 +27,29 @@ public class Pikachu extends Pokemon implements Normal {
     }
 
     @Override
-    public int investida() {
+    public int chamaAtaque(int i) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
     @Override
-    public void chamaAtaque(int i) {
+    public int thunderShock() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
     @Override
-    public int quickAttack() {
+    public int voltTackle() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
     @Override
-    public int tackle() {
+    public int thunderFang() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
     @Override
-    public int bite() {
+    public int shockWave() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
+    
+    
 }

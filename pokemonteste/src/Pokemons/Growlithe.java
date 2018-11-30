@@ -28,12 +28,12 @@ public class Growlithe extends Pokemon implements Normal{
     }
 
     @Override
-    public int investida() {
+    public int cometPunch() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
     @Override
-    public void chamaAtaque(int i) {
+    public int chamaAtaque(int i) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 

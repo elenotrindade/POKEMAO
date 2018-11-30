@@ -12,16 +12,28 @@ package pokemonteste;
 public abstract class Pokemon {
     protected String nome;
 
-    protected int nvl, hp, atk, def, turno = -1, energy;
+    protected int hp = 100, def = 10, energy = 100;
 
     public abstract void ataqueAnuncio();
     @Override
     public String toString(){
         return this.nome;
     }
-
-    int ataque() {
-        //chama o time e retorna o dano do ataque
-        return 1;
+    
+    public void addDef(int def){
+        this.def += def;
+    }
+    
+    public void decreaseHp(int damage){
+        hp -= damage;
+    }
+    
+     public void decreaseEnergy(int wane){
+        energy -= wane;
+    }
+    
+    public void heal() {
+        hp = 100;
+        energy = 100;
     }
 }
