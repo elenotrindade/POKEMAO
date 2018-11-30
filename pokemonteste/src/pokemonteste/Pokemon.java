@@ -12,7 +12,7 @@ package pokemonteste;
 public abstract class Pokemon {
     protected String nome;
 
-    protected int hp = 100, def = 10, energy = 100;
+    protected int hp = 100, def = 10, turno = -1, energy = 100;
 
     public abstract void ataqueAnuncio();
     @Override

@@ -59,7 +59,7 @@ public class Batalha {
     */
     private void atacar (Pokemon x, Pokemon y)
     {
-        int dano = x.ataque();
-        dano = dano - y.def;
+//        int dano = x.ataque();
+//        dano = dano - y.def;
     }
 }
