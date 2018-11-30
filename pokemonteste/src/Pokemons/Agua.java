@@ -11,4 +11,12 @@ package Pokemons;
  */
 interface Agua {
     
+    void chamaAtaque(int i);
+    
+    int iceBeam();
+    int bubbleBeam();
+    int hydroPump();
+    int hydroCannon();
+    
+    
 }

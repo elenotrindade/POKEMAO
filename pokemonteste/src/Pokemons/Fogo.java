@@ -11,4 +11,10 @@ package Pokemons;
  */
 interface Fogo {
     
+    void chamaAtaque();
+    
+    int flameThrower();
+    int inferno();
+    int fireBlast();
+    int flameBurst();
 }

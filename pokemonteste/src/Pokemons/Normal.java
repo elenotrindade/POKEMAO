@@ -10,5 +10,11 @@ package Pokemons;
  * @author eleno
  */
 interface Normal{
-    public abstract float investida();
+    
+    void chamaAtaque(int i);
+    
+    int investida();
+    int quickAttack();
+    int tackle();
+    int bite();
 }
