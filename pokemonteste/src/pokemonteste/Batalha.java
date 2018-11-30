@@ -4,62 +4,45 @@
  * and open the template in the editor.
  */
 package pokemonteste;
-import Pokemons.*;
+
+import java.util.Random;
+
 /**
  *
- * @author eleno
+ * @author 1513 X-MXTI
  */
 public class Batalha {
-    int turno = -1;
-    /*@return retorna se está em batalha ou não;
-    */
-    public boolean estaEmBatalha(){
-        boolean bool = true;
-        return bool;
-    }
-    /*@param os dois pokemons que estão no campo de batalha
-    *@return retorna de qual pokemon é o turno
-    */
-    public Pokemon turno (Pokemon x, Pokemon y)
-    {
-        if (x.turno == -1 && y.turno == -1)
-        {
-            x.turno = x.turno * -1;
-            return x;
-        }
-        else if (x.turno == 1 && y.turno == -1)
-        {
-            y.turno = y.turno * -1;
-            return y;
-        }
-        else
-        {
-            y.turno = y.turno * -1;
-            x. turno = x.turno * -1;
-            return turno (x,y);
-        }
-    }
-    /**
-     * Luta dos pokemons 
-    * @param x primeiro pokemon
-    * @param y segundo pokemon
-    * @return retorna qual foi o pokemon vitorioso
-    */
-    
+                
+                int turno=1, danox, danoy;
+                Random rand = new Random();
    
-    public Pokemon batalhar (Pokemon x, Pokemon y)
-    {
-        while (x.hp !=0 || y.hp !=0 )
-        {
-            
-        }
-        return x;
-    }
-    /*@param o pokemon que ta atacando e o que está recebendo o ataque *ainda não sabemos como definir como seria a seleção de cada ataque*
-    */
-    private void atacar (Pokemon x, Pokemon y)
-    {
-//        int dano = x.ataque();
-//        dano = dano - y.def;
-    }
+            void pokemonvspokemon(Treinador x,Pokemon y)
+            {
+                while(x.pokemons.get(0).hp !=0|| y.hp !=0)
+                {
+                    
+                    danox = x.pokemons.get(0).chamaAtaque(x.chamaataque());
+                    danoy = y.chamaAtaque(1 + rand.nextInt((4 - 1) + 1));
+                    y.hp -= danox-y.def;
+                    x.pokemons.get(0).hp -= danoy-x.pokemons.get(0).def;
+                }
+                
+                
+             
+            }
+           void treinadorvstreinador (Treinador x,LiderdeGinasio y)
+           {
+               
+               while(x.pokemons.get(0).hp !=0|| y.pokemons.get(0).hp !=0)
+                {
+                    
+                    danox = x.pokemons.get(0).chamaAtaque(x.chamaataque());
+                    danoy = y.pokemons.get(0).chamaAtaque(1 + rand.nextInt((4 - 1) + 1));
+                    y.pokemons.get(0).hp -= danox-y.pokemons.get(0).def;
+                    x.pokemons.get(0).hp -= danoy-x.pokemons.get(0).def;
+                }
+                
+               
+               
+           }
 }

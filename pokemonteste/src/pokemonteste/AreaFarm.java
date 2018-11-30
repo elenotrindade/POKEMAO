@@ -15,5 +15,39 @@ import pokemonteste.Pokemon;
 public class AreaFarm extends Locais{
     
                     ArrayList<Pokemon> pokemonsarea = new ArrayList();
-    
+                    boolean derrotado = false;
+                    
+                    void rodalocal (Treinador x)
+                    {
+                        
+                        while(pokemonsarea.isEmpty()==false||derrotado == false)
+                        {
+                            
+                            while (x.pokemons.isEmpty()==false||pokemonsarea.isEmpty()==false)
+                            {    
+                                batalha.pokemonvspokemon(x, pokemonsarea.get(0));
+                                if(x.pokemons.get(0).hp==0)
+                                {
+                                    x.pokemons.remove(0);
+                                }
+                                if(pokemonsarea.get(0).hp==0)
+                                {
+                                    pokemonsarea.remove(0);
+                                }
+                            
+                           }    
+                        
+                            if(x.pokemons.isEmpty())
+                            {
+                                derrotado = true;
+                                System.out.println("Voce foi derrotado!");
+                            }
+                        }
+                        if(pokemonsarea.isEmpty())
+                        {
+                            System.out.println("Voce venceu!!!"); 
+                           
+                        }
+                    
+                    }    
 }

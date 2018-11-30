@@ -14,6 +14,11 @@ public class Locais {
                     String Nome;
                     String Tipo;
                     int    ExperienciaPadrao;// atributo pra calcular experiencia obtida por pokemons selvagens da area de farm
+                    Batalha batalha; 
+                    void rodalocal(Treinador x)
+                    {
+                        
+                    }
                     
     /* aqui será instanciado todos os locais, como os ginásios e os lugares secundário para farmar xp
     * atributos basicos: nome, pokemons e está atrelado a batalha, pois aqui ocorrerá as batalhas

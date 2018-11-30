@@ -13,5 +13,34 @@ import java.util.ArrayList;
  */
 public class Ginasio extends Locais {
             
-                    ArrayList<Treinador> treinadores = new ArrayList();
+                    ArrayList<Treinador> treinadores;
+                    
+                    void rodalocal (Treinador x)
+                    {
+                        
+                        while(treinadores.isEmpty()==false)
+                        {
+                            
+                            batalha.
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                        }
+                        
+                        
+                        
+                        
+                        
+                   
+                        
+                        
+                        
+                    }
+                    
+                    
 }

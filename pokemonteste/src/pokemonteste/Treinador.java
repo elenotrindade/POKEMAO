@@ -5,7 +5,7 @@
  */
 package pokemonteste;
 
-import java.util.ArrayList;
+import java.util.*;
 
 /**
  *
@@ -32,18 +32,25 @@ public class Treinador {
         this.experiencia = this.experiencia+experiencia; // adiciona experiencia atual com a recebida
     }
 
-    void addpokemon(Pokemon e) {
+    public void addpokemon(Pokemon e) {
         pokemons.add(e);
     }
-    void addInsignia (Insignia e)
+    public void addInsignia (Insignia e)
     {
         insignias.add( e);
     }
-    void chamaataque ()
+    public int chamaataque ()
     {
-        if(Treinador)
+        int op;
+        Scanner s = new Scanner(System.in);
+        System.out.println("Ataques disponiveis: ");
+        for(int i = 0; i < pokemons.get(0).Ataques.length; i++){
+            System.out.println(i+1 + " para - " + pokemons.get(0).Ataques[i]);
+        }
+        System.out.println("Digite o numero do ataque desejado:");
+        op = s.nextInt();
         
-        
+        return op;
     }
     
 }

@@ -16,6 +16,10 @@ public class LiderdeGinasio extends Treinador {
                        
     
     
-   
+   void passainsignia(Treinador x)
+   {
+       x.insignias.add(this.insignias.get(0)); //zero por que lider de ginasio só terá uma insgnia na lista de insignias
+       
+   }
     
 }

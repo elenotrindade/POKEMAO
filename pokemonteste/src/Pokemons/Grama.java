@@ -11,6 +11,8 @@ package Pokemons;
  */
 interface Grama {
     
+    String Ataques[]= {"vine Whip(20)","SolarBeam(20)","Razor Leaf(25)","Power Whip(40)"};
+    
     int chamaAtaque(int i);
 
     int vineWhip();
