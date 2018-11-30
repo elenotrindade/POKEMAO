@@ -6,8 +6,6 @@
 package pokemonteste;
 
 import java.util.ArrayList;
-import pokemonteste.Pokemon;
-import pokemonteste.Pokemon;
 
 /**
  *
