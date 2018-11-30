@@ -7,7 +7,7 @@ package pokemonteste;
 
 import java.io.*;
 import java.util.*;
-
+import Interface.*;
 /**
  *
  * @author eleno
@@ -18,6 +18,12 @@ public class Pokemonteste {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+            Tela tela = new Tela();
+            java.awt.EventQueue.invokeLater(new Runnable() {
+                public void run() {
+                    tela.setVisible(true);
+                }
+            });
             
     }
 }

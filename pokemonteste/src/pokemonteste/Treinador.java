@@ -20,11 +20,28 @@ public class Treinador {
         protected   int    experiencia;
         protected   ArrayList<Pokemon> pokemons = new ArrayList();
         protected   ArrayList<Insignia> insignias = new ArrayList();
+    
+    public Treinador(String nome, int idade) {
+        Nome = nome;
+        this.idade = idade;
+    }
 
     public String getNome() {
         return Nome;
     }
 
+    public void setNome(String Nome) {
+        this.Nome = Nome;
+    }
+
+    public void setIdade(int idade) {
+        this.idade = idade;
+    }
+
+    public int getIdade() {
+        return idade;
+    }
+    
    
     public int getExperiencia() {
         return experiencia;
@@ -34,13 +51,17 @@ public class Treinador {
         this.experiencia = this.experiencia+experiencia; // adiciona experiencia atual com a recebida
     }
 
-    void addpokemon(Pokemon e) {
+    public void addpokemon(Pokemon e) {
         pokemons.add(e);
     }
-    void addInsignia (Insignia e)
+    public void addInsignia (Insignia e)
     {
         insignias.add( e);
     }
+    public int getNumeroInsignias() {
+        return insignias.size();
+    }
+    
                       
     
 }
