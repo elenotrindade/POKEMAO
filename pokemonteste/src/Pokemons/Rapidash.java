@@ -26,27 +26,47 @@ public class Rapidash extends Pokemon implements Fogo{
     }
 
     @Override
-    public void chamaAtaque(int i) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    public int chamaAtaque(int i) {
+        if (i == 1){
+            return flameThrower();
+        }
+        else if(i == 2){
+            return inferno();
+        }
+        else if(i == 3){
+            return fireBlast();
+        }
+        else if(i == 4){
+            return flameBurst();
+        }
+        return 0;
     }
 
     @Override
     public int flameThrower() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        System.out.println("Flame Thrower!");
+        super.decreaseEnergy(10);
+        return 20;
     }
 
     @Override
     public int inferno() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        System.out.println("Inferno!");
+        super.decreaseEnergy(40);
+        return 40;
     }
 
     @Override
     public int fireBlast() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        System.out.println("Fire Blast!");
+        super.decreaseEnergy(20);
+        return 30;
     }
 
     @Override
     public int flameBurst() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        System.out.println("Flame Burst!");
+        super.decreaseEnergy(25);
+        return 25;
     }
 }

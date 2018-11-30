@@ -11,6 +11,7 @@ package Pokemons;
  */
 interface Ar {
     
+    String Ataques[]= {"Hurricane(40)","Wing Atack(20)","Air Slash(25)","Fly(10)"};
     int chamaAtaque(int i);
     
     int hurricane();

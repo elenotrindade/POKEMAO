@@ -5,12 +5,15 @@
  */
 package Pokemons;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author crist
  */
 interface Fogo {
     
+    String Ataques[]= {"Flametrhower(20)","Fireblast(20)","FlameBurst(25)","Inferno(40)"};
     int chamaAtaque(int i);
     
     int flameThrower();

@@ -39,6 +39,11 @@ public class Treinador {
     {
         insignias.add( e);
     }
-                      
+    void chamaataque ()
+    {
+        if(Treinador)
+        
+        
+    }
     
 }

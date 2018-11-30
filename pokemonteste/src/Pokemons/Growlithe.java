@@ -27,28 +27,48 @@ public class Growlithe extends Pokemon implements Normal{
         System.out.println(this.nome + " usa mordidão do nelsão");
     }
 
-    @Override
+   @Override
     public int cometPunch() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        System.out.println("Comet Punch!");
+        super.decreaseEnergy(30);
+        return 30;
     }
 
     @Override
     public int chamaAtaque(int i) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        if (i == 1){
+            return cometPunch();
+        }
+        else if(i == 2){
+            return bite();
+        }
+        else if(i == 3){
+            return quickAttack();
+        }
+        else if(i == 4){
+            return tackle();
+        }
+        return 0;
     }
 
     @Override
     public int quickAttack() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        System.out.println("Quick Attack!");
+        super.decreaseEnergy(15);
+        return 15;
     }
 
     @Override
     public int tackle() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        System.out.println("Tackle!");
+        super.decreaseEnergy(10);
+        return 12;
     }
 
     @Override
     public int bite() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        System.out.println("Bite!");
+        super.decreaseEnergy(15);
+        return 20;
     }
 }

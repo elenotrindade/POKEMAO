@@ -28,27 +28,47 @@ public class Pikachu extends Pokemon implements Eletrico {
 
     @Override
     public int chamaAtaque(int i) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        if (i == 1){
+            return thunderShock();
+        }
+        else if(i == 2){
+            return voltTackle();
+        }
+        else if(i == 3){
+            return thunderFang();
+        }
+        else if(i == 4){
+            return shockWave();
+        }
+        return 0;
     }
 
     @Override
     public int thunderShock() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        System.out.println("Thunder Shock!");
+        super.decreaseEnergy(15);
+        return 25;    
     }
 
     @Override
     public int voltTackle() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        System.out.println("Volt Tackle!");
+        super.decreaseEnergy(20);
+        return 30;
     }
 
     @Override
     public int thunderFang() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        System.out.println("Thunder Fang!");
+        super.decreaseEnergy(40);
+        return 40;
     }
 
     @Override
     public int shockWave() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        System.out.println("Shock wave!");
+        super.decreaseEnergy(15);
+        return 20;  
     }
     
     

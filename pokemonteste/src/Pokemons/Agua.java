@@ -11,6 +11,9 @@ package Pokemons;
  */
 interface Agua {
     
+    String Ataques[]= {"Ice Beam(25)","Bubble Beam(10)","Hydro Pump(20)","Hydro Cannon(40)"};
+    
+    
     int chamaAtaque(int i);
     
     int iceBeam();

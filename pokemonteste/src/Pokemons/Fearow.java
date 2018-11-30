@@ -27,27 +27,47 @@ public class Fearow extends Pokemon implements Ar {
 
     @Override
     public int chamaAtaque(int i) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        if (i == 1){
+            return hurricane();
+        }
+        else if(i == 2){
+            return wingAttack();
+        }
+        else if(i == 3){
+            return airSlash();
+        }
+        else if(i == 4){
+            return fly();
+        }
+        return 0;
     }
 
     @Override
     public int hurricane() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        System.out.println("Hurricane!");
+        super.decreaseEnergy(40);
+        return 40;
     }
 
     @Override
     public int wingAttack() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        System.out.println("Wing Attack!");
+        super.decreaseEnergy(20);
+        return 30;
     }
 
     @Override
     public int airSlash() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        System.out.println("Air Slash!");
+        super.decreaseEnergy(25);
+        return 25;
     }
 
     @Override
     public int fly() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        System.out.println("Fly!");
+        super.decreaseEnergy(10);
+        return 20;
     }
     
 }

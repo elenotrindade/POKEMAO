@@ -9,6 +9,12 @@ package Pokemons;
  *
  * @author crist
  */
-public class Normal {
+interface Normal {
     
+    int chamaAtaque(int i);
+    
+    int cometPunch();
+    int tackle();
+    int quickAttack();
+    int bite();
 }
