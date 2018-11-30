@@ -18,11 +18,30 @@ public class Treinador {
         protected   int    experiencia;
         protected   ArrayList<Pokemon> pokemons = new ArrayList();
         protected   ArrayList<Insignia> insignias = new ArrayList();
+    
+    public Treinador() {
+    }
+    public Treinador(String nome, int idade) {
+        Nome = nome;
+        this.idade = idade;
+    }
 
     public String getNome() {
         return Nome;
     }
 
+    public void setNome(String Nome) {
+        this.Nome = Nome;
+    }
+
+    public void setIdade(int idade) {
+        this.idade = idade;
+    }
+
+    public int getIdade() {
+        return idade;
+    }
+    
    
     public int getExperiencia() {
         return experiencia;
@@ -52,5 +71,11 @@ public class Treinador {
         
         return op;
     }
+
+    public int getNumeroInsignias() {
+        return insignias.size();
+    }
+    
+                      
     
 }
