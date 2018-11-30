@@ -5,8 +5,9 @@
  */
 package pokemonteste;
 
+import Pokemons.*;
 import java.util.ArrayList;
-import pokemonteste.Pokemon;
+import pokemonteste.*;
 
 /**
  *
@@ -17,6 +18,7 @@ public class AreaFarm extends Locais{
                     ArrayList<Pokemon> pokemonsarea = new ArrayList();
                     boolean derrotado = false;
                     
+                    @Override
                     void rodalocal (Treinador x)
                     {
                         
