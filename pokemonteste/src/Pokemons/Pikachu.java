@@ -12,9 +12,12 @@ import pokemonteste.*;
  * @author eleno
  */
 public class Pikachu extends Pokemon implements Eletrico {
+    //String ataques[]= {"Thuder Shock(15)","Volt Tackle(20)","Thunder Fang(40)","Shock Wave(20)"};
     
     public Pikachu(String nome) {
         this.nome = nome;
+         ataques[0] = "Thuder Shock(15)";
+         //ataques[1]  Volt Tackle(20)","Thunder Fang(40)","Shock Wave(20)"};
     }
     //@return Retorna o nome
     public String getNome() {

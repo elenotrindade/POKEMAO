@@ -35,7 +35,7 @@ public class Menu {
         Treinador coach = new Treinador();
         Pikachu pikachu = new Pikachu("Pikachu");
         System.out.println("Você foi designado para treinar um Pikachu, parabéns!!");
-        coach.pokemons.add(pikachu);
+        coach.addpokemon(pikachu);
         Scanner teclado = new Scanner (System.in);
         
         //Aqui são criados os ginasios e areas de farm
@@ -89,7 +89,7 @@ public class Menu {
         Pokemon NineTales = new Ninetales ("Tail");
         Stan.addpokemon(Victreebel);
         Stan.addpokemon(NineTales);
-        //Ginasio2.addLider(Stan);
+        Ginasio2.addLider(Stan);
         mundo.add(Ginasio1);
         
         

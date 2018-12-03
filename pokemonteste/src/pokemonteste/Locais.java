@@ -17,7 +17,7 @@ import java.util.*;
     String Nome;
     String Tipo;
     int    ExperienciaPadrao;// atributo pra calcular experiencia obtida por pokemons selvagens da area de farm
-    Batalha batalha; 
+    Batalha batalha = new Batalha(); 
     public Locais(){};
     
     

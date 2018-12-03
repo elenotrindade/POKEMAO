@@ -12,7 +12,7 @@ package Pokemons;
 interface Eletrico {
     
     
-    String Ataques[]= {"Thuder Shock(15)","Volt Tackle(20)","Thunder Fang(40)","Shock Wave(20)"};
+    //String ataques[]= {"Thuder Shock(15)","Volt Tackle(20)","Thunder Fang(40)","Shock Wave(20)"};
     int chamaAtaque(int i);
     
     int thunderShock();

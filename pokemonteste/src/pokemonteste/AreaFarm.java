@@ -26,6 +26,7 @@ public class AreaFarm extends Locais{
                             
                             while (x.pokemons.isEmpty()==false||pokemonsarea.isEmpty()==false)
                             {    
+                                System.out.println(pokemonsarea.get(0));
                                 batalha.pokemonvspokemon(x, pokemonsarea.get(0));
                                 if(x.pokemons.get(0).hp==0)
                                 {

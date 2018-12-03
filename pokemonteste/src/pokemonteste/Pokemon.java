@@ -13,7 +13,7 @@ public abstract class Pokemon {
     protected String nome;
 
     protected int hp = 100, def = 10, turno = -1, energy = 100;
-    protected String Ataques[];
+    protected String ataques[] = new String[50];
     public int chamaAtaque(int i){
         return 0;
     }

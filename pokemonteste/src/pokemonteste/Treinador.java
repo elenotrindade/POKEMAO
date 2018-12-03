@@ -63,8 +63,8 @@ public class Treinador {
         int op;
         Scanner s = new Scanner(System.in);
         System.out.println("Ataques disponiveis: ");
-        for(int i = 0; i < pokemons.get(0).Ataques.length; i++){
-            System.out.println(i+1 + " para - " + pokemons.get(0).Ataques[i]);
+        for(int i = 0; i < pokemons.get(0).ataques.length; i++){
+            System.out.println(i+1 + " para - " + pokemons.get(0).ataques[i]);
         }
         System.out.println("Digite o numero do ataque desejado:");
         op = s.nextInt();
