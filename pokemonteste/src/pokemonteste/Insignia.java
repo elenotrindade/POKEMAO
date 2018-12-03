@@ -13,4 +13,10 @@ public class Insignia {
                         
                          String Nome;
                          String Tipo;
+
+    public Insignia(String Nome, String Tipo) {
+        this.Nome = Nome;
+        this.Tipo = Tipo;
+    }
+                         
 }

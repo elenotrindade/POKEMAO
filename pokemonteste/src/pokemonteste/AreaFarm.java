@@ -17,7 +17,8 @@ public class AreaFarm extends Locais{
                     ArrayList<Pokemon> pokemonsarea = new ArrayList();
                     boolean derrotado = false;
                     
-                    void rodalocal (Treinador x)
+                    @Override
+                    public void rodalocal (Treinador x)
                     {
                         
                         while(pokemonsarea.isEmpty()==false||derrotado == false)
@@ -49,5 +50,8 @@ public class AreaFarm extends Locais{
                            
                         }
                     
-                    }    
+                    }
+                    void preencheLista(ArrayList<Pokemon> pokemons){
+                        pokemonsarea = pokemons;
+                    }
 }

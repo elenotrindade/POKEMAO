@@ -13,10 +13,12 @@ import java.util.ArrayList;
  */
 public class Ginasio extends Locais {
             
-                    ArrayList<LiderdeGinasio> treinadores;
+                    ArrayList<LiderdeGinasio> treinadores = new ArrayList();
                     boolean derrotado = false;
+                   
                     
-                    void rodalocal (Treinador x)
+                    @Override
+                    public void rodalocal (Treinador x)
                     {
                         
                         while(treinadores.isEmpty()==false||derrotado == false)
@@ -59,7 +61,10 @@ public class Ginasio extends Locais {
                     
                     }    
                          
-                        
+                   void addLider (LiderdeGinasio lider)
+                   {
+                        this.treinadores.add(lider);
+                   }
                         
                    
                         
