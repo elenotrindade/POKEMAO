@@ -12,11 +12,15 @@ import pokemonteste.Treinador;
  * @author 1513 X-MXTI
  */
 public class LiderdeGinasio extends Treinador {
-    
                        
-    
-    
-   void passainsignia(Treinador x)
+
+    public LiderdeGinasio() {
+    }
+
+    public LiderdeGinasio(String nome, int idade) {
+        super(nome, idade);
+    }
+    void passainsignia(Treinador x)
    {
        x.insignias.add(this.insignias.get(0)); //zero por que lider de ginasio só terá uma insgnia na lista de insignias
        
